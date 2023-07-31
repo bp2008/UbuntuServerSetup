@@ -44,7 +44,7 @@ if ! grep -q "dhcp-identifier: mac" "$NETPLAN_FILE"; then
 
     echo "DHCP settings are about to change."
     echo "This machine may get a different IP address and you may lose connection."
-    
+
     # Make a backup of the original file
     cp "$NETPLAN_FILE" "$NETPLAN_FILE.bak"
 
