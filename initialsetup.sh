@@ -60,7 +60,7 @@ fi
 read -p "Do you want to set the time zone to America/Denver? (y/n) " answer
 if [[ $answer == "y" ]]
 then
-    sudo timedatectl set-timezone America/Denver
+    timedatectl set-timezone America/Denver
     echo "Time zone set to America/Denver"
 fi
 
