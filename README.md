@@ -1,10 +1,10 @@
 # UbuntuServerSetup
 
-This script helps set up an Ubuntu Server instance by doing the following things:
+This script helps set up an Ubuntu Server instance by doing the following things (permission will be asked to perform each step):
 
-1. Configure unattended upgrades
-2. Configure automatic removal of unused dependencies to prevent the disk slowly filling up with unused kernels and other packages
-3. Configure the DHCP client identifier to be the MAC address of the network interface.
+1. Configure unattended upgrades and automatic removal of unused dependencies to prevent the disk slowly filling up with unused kernels and other packages
+2. Configure the DHCP client identifier to be the MAC address of the network interface.
+3. Set the time zone to Mountain Time (`America/Denver`).
 
 ## Usage
 
